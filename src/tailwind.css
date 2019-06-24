@@ -6212,7 +6212,7 @@ video {
   color: #81e6d9;
 }
 
-.text-orange-500 {
+.text-teal-400 {
   color: #4fd1c5;
 }
 
@@ -6584,7 +6584,7 @@ video {
   color: #81e6d9;
 }
 
-.hover\:text-orange-500:hover {
+.hover\:text-teal-400:hover {
   color: #4fd1c5;
 }
 
@@ -6956,7 +6956,7 @@ video {
   color: #81e6d9;
 }
 
-.focus\:text-orange-500:focus {
+.focus\:text-teal-400:focus {
   color: #4fd1c5;
 }
 
@@ -13163,7 +13163,7 @@ video {
     color: #81e6d9;
   }
 
-  .sm\:text-orange-500 {
+  .sm\:text-teal-400 {
     color: #4fd1c5;
   }
 
@@ -13535,7 +13535,7 @@ video {
     color: #81e6d9;
   }
 
-  .sm\:hover\:text-orange-500:hover {
+  .sm\:hover\:text-teal-400:hover {
     color: #4fd1c5;
   }
 
@@ -13907,7 +13907,7 @@ video {
     color: #81e6d9;
   }
 
-  .sm\:focus\:text-orange-500:focus {
+  .sm\:focus\:text-teal-400:focus {
     color: #4fd1c5;
   }
 
@@ -20115,7 +20115,7 @@ video {
     color: #81e6d9;
   }
 
-  .md\:text-orange-500 {
+  .md\:text-teal-400 {
     color: #4fd1c5;
   }
 
@@ -20487,7 +20487,7 @@ video {
     color: #81e6d9;
   }
 
-  .md\:hover\:text-orange-500:hover {
+  .md\:hover\:text-teal-400:hover {
     color: #4fd1c5;
   }
 
@@ -20859,7 +20859,7 @@ video {
     color: #81e6d9;
   }
 
-  .md\:focus\:text-orange-500:focus {
+  .md\:focus\:text-teal-400:focus {
     color: #4fd1c5;
   }
 
@@ -27067,7 +27067,7 @@ video {
     color: #81e6d9;
   }
 
-  .lg\:text-orange-500 {
+  .lg\:text-teal-400 {
     color: #4fd1c5;
   }
 
@@ -27439,7 +27439,7 @@ video {
     color: #81e6d9;
   }
 
-  .lg\:hover\:text-orange-500:hover {
+  .lg\:hover\:text-teal-400:hover {
     color: #4fd1c5;
   }
 
@@ -27811,7 +27811,7 @@ video {
     color: #81e6d9;
   }
 
-  .lg\:focus\:text-orange-500:focus {
+  .lg\:focus\:text-teal-400:focus {
     color: #4fd1c5;
   }
 
@@ -34019,7 +34019,7 @@ video {
     color: #81e6d9;
   }
 
-  .xl\:text-orange-500 {
+  .xl\:text-teal-400 {
     color: #4fd1c5;
   }
 
@@ -34391,7 +34391,7 @@ video {
     color: #81e6d9;
   }
 
-  .xl\:hover\:text-orange-500:hover {
+  .xl\:hover\:text-teal-400:hover {
     color: #4fd1c5;
   }
 
@@ -34763,7 +34763,7 @@ video {
     color: #81e6d9;
   }
 
-  .xl\:focus\:text-orange-500:focus {
+  .xl\:focus\:text-teal-400:focus {
     color: #4fd1c5;
   }
 
