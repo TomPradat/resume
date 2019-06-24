@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import data from "./data/data";
+import Pro from "./Pro/Pro";
+import Perso from "./Perso/Perso";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-col h-full">
+      <div className="text-4xl font-bold text-orange-500">
+        {data.lastname} {data.firstname}
+      </div>
+      <div className="text-xl">{data.wanted_job}</div>
+      <div className="flex-1 flex mt-6">
+        <div className="bg-gray-200" style={{ flex: 2 }}>
+          <Perso data={data} />
+        </div>
+        <div style={{ flex: 5 }}>
+          <Pro data={data} />
+        </div>
+      </div>
     </div>
   );
 }
