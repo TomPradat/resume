@@ -4,7 +4,7 @@ export default {
   birthDate: "08/01/1994",
   wanted_job: "Développeur",
   presentation:
-    "Féru d'informatique depuis des années, j'y consacre beaucoup de temps libre. J'ai découvert le monde du web il y a quatre ans et son fonctionnement me passionne.",
+    "Passionné de sciences et notamment d'informatique depuis des années, j'y consacre beaucoup de temps afin d'assouvir ma soif de connaissance.",
   address: {
     street: "17 avenue de l'union soviétique",
     zip: "63000",
