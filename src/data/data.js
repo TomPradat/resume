@@ -18,7 +18,19 @@ export default {
   stackshare: "https://stackshare.io/TomPradat",
   timeline: [
     {
+      start: 2019,
+      experiences: [
+        {
+          sum_up: "Braincube - Ingénieur R&D",
+          projects: [
+            "Réécriture d'applications interne au logiciel Braincube - ReactJS",
+          ],
+        }
+      ],
+    },
+    {
       start: 2017,
+      end: 2019,
       experiences: [
         {
           sum_up: "Domraider - Développeur",
