@@ -1,5 +1,5 @@
 import React from "react";
-import data from "./data/data";
+import data from "./data/data-en";
 import Pro from "./Pro/Pro";
 import Perso from "./Perso/Perso";
 

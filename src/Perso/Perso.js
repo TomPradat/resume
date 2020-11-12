@@ -9,17 +9,21 @@ const Perso = ({ data }) => (
     </div>
     <div className="p-2 text-xs mt-2">{data.presentation}</div>
     <div className="text-right">
-      <Info label="Date de naissance">{data.birthDate}</Info>
-      <Info label="Adresse">
+      <Info label="Birth date">{data.birthDate}</Info>
+      <Info label="Address">
         {data.address.street} <br />
         {data.address.zip} {data.address.city}
       </Info>
-      <Info label="Téléphone">{data.phone}</Info>
-      <Info label="Adresse email">{data.email}</Info>
-      <Info label="Mobilité">Permis B</Info>
-      <Info label="Langues">{data.langs.join(", ")}</Info>
-      <Info label="Centres d'intêret">{data.hobbies.join(", ")}</Info>
-      <Info label="Github">{data.github}</Info>
+      <Info label="Phone number">{data.phone}</Info>
+      <Info label="Email address">{data.email}</Info>
+      <Info label="Languages">{data.langs.join(", ")}</Info>
+      <Info label="Hobbies">{data.hobbies.join(", ")}</Info>
+      <Info label="Github">
+        <a href={data.github}>{data.github}</a>
+      </Info>
+      <Info label="LinkedIn">
+        <a href={data.linkedin}>{data.linkedin}</a>
+      </Info>
     </div>
   </div>
 );
