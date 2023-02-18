@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="flex flex-col h-full">
       <div className="text-4xl font-bold text-orange-500">
-        {data.lastname} {data.firstname}
+        {data.firstname} {data.lastname}
       </div>
       <div className="text-xl">{data.wanted_job}</div>
       <div className="flex-1 flex mt-6">

@@ -4,7 +4,7 @@ export default {
   birthDate: "08/01/1994",
   wanted_job: "Software engineer",
   presentation:
-    "On the road to software craftsmanship, I spend a lot of my free time learning and experimenting with new technologies",
+    "On the road to software craftsmanship, I believe the most important in programming is keeping the complexity of softwares as low as possible, writing clear and concise code. I love learning and experimenting with new technologies",
   address: {
     street: "22 chemin de Javaude",
     zip: "63540",
@@ -19,8 +19,31 @@ export default {
   linkedin: "https://www.linkedin.com/in/tom-pradat-736b16b1/",
   timeline: [
     {
+      start: 2021,
+      end: 2023,
+      duration: "(2 years)",
+      experiences: [
+        {
+          sum_up:
+            "Quizzbox Solutions (Clermont-Ferrand, France) - Developer then Lead Developer",
+          projects: [
+            "Refactoring and evolving an Online voting application - Typescript, Express, Jest, Socket.io, Redis, MongoDB",
+            "Refactoring the frontend of the Online voting app with ReactJS - Testing-library, ReactJS",
+            "Catching up with technical debt on a formation management platform - PHP, Symfony, MariaDB",
+            "Dockerize several application for local development and production - PHP, NodeJS",
+            "Improve development processes : code review, git workflow, CI, CD, automatic tests",
+            "Improve servers security, set up a monitoring and a logging tool - Debian, Ansible, Zabbix, ELK",
+            "Interview new developers, develop the team skills through workshops (Docker, Git), manage interns",
+            "Supervise (code review, consulting, architecture) the infrastructure (2 people) and web developer teams (6 people)",
+            "Work with the direction on the company structure, security measures and roadmaps",
+          ],
+        },
+      ],
+    },
+    {
       start: 2019,
-      duration: "(1 year)",
+      end: 2021,
+      duration: "(2 years)",
       experiences: [
         {
           sum_up: "Braincube (Issoire, France) - R&D Engineer",
@@ -77,8 +100,7 @@ export default {
     {
       start: 2015,
       end: 2017,
-      name:
-        "Master's degree - Internet strategy and projects management in companies",
+      name: "Master's degree - Internet strategy and projects management in companies",
     },
     {
       start: 2013,
@@ -89,8 +111,7 @@ export default {
     {
       start: 2011,
       end: 2013,
-      name:
-        'Scientific preparatory (Maths-Physics) classes to "Grandes Ecoles"',
+      name: 'Scientific preparatory (Maths-Physics) classes to "Grandes Ecoles"',
     },
     {
       start: 2010,
@@ -107,6 +128,7 @@ export default {
         "Symfony 5",
         "ReactPHP",
         "Javascript",
+        "Typescript",
         "NodeJS",
         "ReactJS",
         "HTML/CSS",
@@ -136,7 +158,15 @@ export default {
     },
     {
       field_name: "Tools",
-      skills: ["Slack", "Asana", "VSCode", "Insomnia"],
+      skills: [
+        "Slack",
+        "Mattermost",
+        "Asana",
+        "VSCode",
+        "Insomnia",
+        "Zabbix",
+        "ELK",
+      ],
     },
   ],
 };
