@@ -14,8 +14,8 @@ const Perso = ({ data }) => (
         {data.address.street} <br />
         {data.address.zip} {data.address.city}
       </Info>
-      <Info label="Phone number">{data.phone}</Info>
-      <Info label="Email address">{data.email}</Info>
+      <Info label="Phone">{data.phone}</Info>
+      <Info label="Email">{data.email}</Info>
       <Info label="Languages">{data.langs.join(", ")}</Info>
       <Info label="Hobbies">{data.hobbies.join(", ")}</Info>
       <Info label="Github">
