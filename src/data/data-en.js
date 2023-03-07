@@ -28,9 +28,9 @@ export default {
             "Quizzbox Solutions (Clermont-Ferrand, France) - Developer, Lead Developer",
           projects: [
             "Refactored and developed an Online voting application - Typescript, Express, Jest, Socket.io, Redis, MongoDB",
-            "Started the refactoring of the frontend of the Online voting app with ReactJS - Testing-library, ReactJS",
+            "Started refactoring the frontend of the Online voting app with ReactJS - Testing-library, ReactJS",
             "Reduced the technical debt on a formation management platform - PHP, Symfony, MariaDB",
-            "Dockerized several application for local development and production - PHP, NodeJS",
+            "Dockerized several applications for local development and production - PHP, NodeJS",
             "Improved development processes : code review, git workflow, CI, CD, automatic tests",
             "Improved servers security, set up a monitoring and a logging tool - Debian, Ansible, Zabbix, ELK",
             "Interviewed new developers, developed the team skills through workshops (Docker, Git), managed interns",
@@ -48,7 +48,7 @@ export default {
         {
           sum_up: "Braincube (Issoire, France) - R&D Engineer",
           projects: [
-            "Participated in splitting a monolithic application in small apps and microservices - ReactJS, Material-UI, Cypress, Testing-library",
+            "Participated in splitting a monolithic application into small apps and microservices - ReactJS, Material-UI, Cypress, Testing-library",
             "Created and maintained in-house libraries - ReactJS, Webpack, Babel",
           ],
         },
@@ -63,7 +63,7 @@ export default {
           sum_up: "Domraider (Clermont-Ferrand, France) - Developer",
           projects: [
             "Developed the new design of the Youdot's website - ReactJS, Redux",
-            "Participated in splitting a monolithic backend in micro services - React PHP, Symfony4, RabbitMQ, EventStore, Domain Driven Design",
+            "Participated in splitting a monolithic backend into micro services - React PHP, Symfony4, RabbitMQ, EventStore, Domain Driven Design",
           ],
         },
       ],
@@ -106,7 +106,8 @@ export default {
       start: 2013,
       end: 2015,
       name: "Bachelor's degree in Mathematics",
-      precision: "Options : Big bang theory, laser science, quantum mechanics",
+      precision:
+        "Specialization : Big bang theory, laser science, quantum mechanics",
     },
     {
       start: 2011,
