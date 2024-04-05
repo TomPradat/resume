@@ -2,22 +2,36 @@ export default {
   firstname: "Tom",
   lastname: "Pradat",
   birthDate: "08/01/1994",
-  wanted_job: "Software engineer",
+  wanted_job: "Lead software engineer",
   presentation:
     "As a Software craftsman, I'm convinced that the most important thing in programming is keeping the complexity of softwares as low as possible, writing clear and concise code. I'm passionate about learning and experimenting with new technologies",
   address: {
-    street: "22 chemin de Javaude",
-    zip: "63540",
-    city: "Romagnat - France",
+    street: "54 GreenHills Court",
+    zip: "T12FYT9",
+    city: "Cork - Ireland",
   },
   phone: "+33 6 82 69 65 95",
   email: "tom.pradat@gmail.com",
   langs: ["French Native", "English C1"],
-  hobbies: ["IT", "Traveling", "Hiking", "Rock climbing", "Video games"],
+  hobbies: ["Rock climbing", "Board games", "Traveling", "Hiking", "IT"],
   github: "https://github.com/TomPradat",
   stackshare: "https://stackshare.io/TomPradat",
   linkedin: "https://www.linkedin.com/in/tom-pradat-736b16b1/",
   timeline: [
+    {
+      start: 2023,
+      experiences: [
+        {
+          sum_up: "Lemon Learning (Remote, France) - Lead Frontend developer",
+          projects: [
+            "Refactored and implemented features on a Web extension about digital adoption - Typescript, Testing-library, ReactJS",
+            "Improved an algorithm that search HTML elements on a web application",
+            "Implemented a Chatbot powered by AI",
+            "Sharpened the processes and coding standards to boost efficiency",
+          ],
+        },
+      ],
+    },
     {
       start: 2021,
       end: 2023,
@@ -162,6 +176,7 @@ export default {
       skills: [
         "Slack",
         "Mattermost",
+        "Jira",
         "Asana",
         "VSCode",
         "Insomnia",

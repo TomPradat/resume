@@ -1,5 +1,5 @@
 import React from "react";
-import Photo from "../assets/tom.png";
+import Photo from "../assets/tom.jpg";
 import Info from "./components/Info/Info";
 
 const Perso = ({ data }) => (
