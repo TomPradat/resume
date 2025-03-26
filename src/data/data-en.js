@@ -6,8 +6,8 @@ const data = {
   presentation:
     "As a Software craftsman, I'm convinced that the most important thing in programming is keeping the complexity of softwares as low as possible, writing clear and concise code. I'm passionate about learning and experimenting with new technologies",
   address: {
-    street: "54 GreenHills Court",
-    zip: "T12FYT9",
+    street: "7 Doyle Road",
+    zip: "T12H3A8",
     city: "Cork - Ireland",
   },
   phone: "+33 6 82 69 65 95",
