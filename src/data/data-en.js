@@ -1,4 +1,4 @@
-export default {
+const data = {
   firstname: "Tom",
   lastname: "Pradat",
   birthDate: "08/01/1994",
@@ -186,3 +186,5 @@ export default {
     },
   ],
 };
+
+export default data;
